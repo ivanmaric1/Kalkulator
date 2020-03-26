@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-header {
+  height: 120px;
+  background-color: #a6f6ea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header h1 {
+  font-size: 2.5rem;
+}
+
+.operation {
+  width: 500px;
+  margin: 80px auto;
+  padding: 3rem;
+  border: 3px solid #a6f6ea;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.operation input {
+  font-size: 42px;
+  margin: 1rem;
+  width: 212px;
+  height: 50px;
+}
+
+.operation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.btn {
+  font-size: 1.4rem;
+  font-weight: 400;
+  width: 50px;
+  height: 50px;
+}
+
+.btn:hover {
+  color: red;
+  border: 1px solid red;
+}
+
+.reset {
+  height: 50px;
+  width: 212px;
+  margin: 1rem;
+  border-color: red;
+  color: red;
+}
+
+.reset:hover {
+  color: #fff;
+  background-color: red;
+  border: 3px solid #fff;
+}
+/*# sourceMappingURL=main.css.map */
