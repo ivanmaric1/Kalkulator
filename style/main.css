@@ -30,7 +30,6 @@ body {
   margin: 80px auto;
   padding: 3rem;
   border: 3px solid #a6f6ea;
-  border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,11 +39,21 @@ body {
           flex-direction: column;
 }
 
+.operation:hover {
+  background-color: #d4fbf5;
+  border: 3px solid red;
+}
+
 .operation input {
   font-size: 42px;
   margin: 1rem;
-  width: 212px;
+  width: 267px;
   height: 50px;
+  border: 2px solid gray;
+}
+
+.operation input:focus {
+  outline: 3px solid #a6f6ea;
 }
 
 .operation {
@@ -64,24 +73,28 @@ body {
   font-weight: 400;
   width: 50px;
   height: 50px;
+  cursor: pointer;
+  border: 2px solid grey;
 }
 
 .btn:hover {
   color: red;
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 .reset {
   height: 50px;
-  width: 212px;
+  width: 267px;
   margin: 1rem;
   border-color: red;
   color: red;
+  cursor: pointer;
 }
 
 .reset:hover {
   color: #fff;
   background-color: red;
   border: 3px solid #fff;
+  outline: #49edd4 3px solid;
 }
 /*# sourceMappingURL=main.css.map */
